@@ -65,7 +65,6 @@ namespace BaseGameLogic.Animation
             animator.SetFloat(NameHash, value, dampTime, Time.deltaTime);
         }
 
-
         public void Set(Animator animator, bool value)
 		{
             if(_oldBoolValue != value)

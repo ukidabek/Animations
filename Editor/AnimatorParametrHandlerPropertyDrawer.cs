@@ -10,7 +10,8 @@ namespace BaseGameLogic.Animation
 	[CustomPropertyDrawer(typeof(AnimatorParametrHandler))]
 	public class AnimatorParametrHandlerPropertyDrawer : PropertyDrawer 
 	{
-		private List<string> parameters = new List<string>(); 
+		private List<string> parameters = new List<string>();
+        
 		public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
 		{
 			return EditorGUIUtility.singleLineHeight * 4;
